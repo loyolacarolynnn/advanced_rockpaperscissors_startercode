@@ -4,7 +4,7 @@
   <head>
       <title>RPS Game</title>
       <!-- Link CSS here -->
-      
+      <link type= "text/css" rel="stylesheet" href="css/style.css"/>
       <!-- Link JQuery here -->
       
       <!-- Link Javascript File here -->
@@ -22,14 +22,20 @@
         5. Add divs to record User Choice and Computer Choice.
         6. Add a div to record the Winner.
      -->
-    <div class="container text-center">
-    
-      
+        <label for="userChoice">User Choice:</label>
+        <input id="userChoice">
+        
+        <p id="blue"> Computer Choice: <span id="computerChoice"></span></p>
+        
+        <p>Winner: <span id="winner"></span></p>
+        
+        <button id="play">Play!</button>
 
 
     
-    </div>
-
-  </body>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src ='js/script.js'></script>
+</body>
 
 </html>
