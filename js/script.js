@@ -28,11 +28,12 @@
 
 // DOCUMENT READY FUNCTION
 
-$(document).ready(function(){
-var rps = ["rock", "paper","scissors"];
-varrandomvalue =rps[Math.floor(rps.length * Math.random())];
-alert(randomValue)
+$(document).ready(function() {
+                        var rps = ["rock", "paper", "scissors"];
+                        varrandomvalue = rps[Math.floor(rps.length * Math.random())];
+                        alert(randomValue)
 
-$("#play").click(function() {
-        
-});
+                        $("#play").click(function() {
+                                var userinput = $("#userChoice").val();
+                                $("user").append("#user");
+                        });
